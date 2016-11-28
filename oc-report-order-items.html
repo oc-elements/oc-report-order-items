@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`oc-report-order-items`
+Element to display a report on order items on the Ordercloud platform
+
+@demo demo/index.html 
+-->
+
+<dom-module id="oc-report-order-items">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'oc-report-order-items',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'oc-report-order-items',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
